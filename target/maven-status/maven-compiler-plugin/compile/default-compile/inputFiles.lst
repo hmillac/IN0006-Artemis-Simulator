@@ -15,5 +15,8 @@
 /workspaces/IN0006-Artemis-Simulator/src/main/java/campusdrive/storage/BasicStorage.java
 /workspaces/IN0006-Artemis-Simulator/src/main/java/campusdrive/storage/ContentHash.java
 /workspaces/IN0006-Artemis-Simulator/src/main/java/campusdrive/storage/DeduplicatingStorage.java
+/workspaces/IN0006-Artemis-Simulator/src/main/java/campusdrive/storage/DriveIndex.java
+/workspaces/IN0006-Artemis-Simulator/src/main/java/campusdrive/storage/LogReplay.java
+/workspaces/IN0006-Artemis-Simulator/src/main/java/campusdrive/storage/MetaLog.java
 /workspaces/IN0006-Artemis-Simulator/src/main/java/campusdrive/storage/StorageStrategy.java
 /workspaces/IN0006-Artemis-Simulator/src/main/java/practice/Calculator.java

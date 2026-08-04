@@ -4,6 +4,9 @@ campusdrive/BasicStorageTest.class
 practice/CalculatorTest.class
 bakery/StockNotifierTest.class
 bakery/BakeryEasyMockTest.class
+campusdrive/DriveIndexTest.class
 campusdrive/DeduplicatingStorageTest.class
+campusdrive/MetaLogTest.class
+campusdrive/LogReplayTest.class
 bakery/PastryTest.class
 bakery/DatabaseAdapterTest.class

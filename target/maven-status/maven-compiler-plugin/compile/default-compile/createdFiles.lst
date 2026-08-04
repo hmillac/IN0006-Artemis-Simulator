@@ -1,3 +1,4 @@
+campusdrive/storage/DriveIndex.class
 campusdrive/storage/ContentHash.class
 bakery/observer/StockListener.class
 practice/Calculator.class
@@ -5,10 +6,12 @@ campusdrive/storage/DeduplicatingStorage.class
 campusdrive/infrastructure/FileStore.class
 bakery/repository/DatabaseAdapter.class
 campusdrive/infrastructure/InMemoryFileStore.class
+campusdrive/storage/LogReplay.class
 bakery/rest/StockResponse.class
 bakery/rest/AuthResponse.class
 bakery/model/Pastry.class
 bakery/observer/StockNotifier.class
+campusdrive/storage/MetaLog.class
 bakery/rest/BuyResponse.class
 campusdrive/storage/BasicStorage.class
 bakery/rest/BuyRequest.class
