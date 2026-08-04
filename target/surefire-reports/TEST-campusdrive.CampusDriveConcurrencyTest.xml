@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="campusdrive.BasicStorageTest" time="0.033" tests="6" errors="0" skipped="0" failures="0" flakes="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="campusdrive.CampusDriveConcurrencyTest" time="0.075" tests="5" errors="0" skipped="0" failures="0" flakes="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -54,10 +54,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="overwriteDoesNotConcatenate" classname="campusdrive.BasicStorageTest" time="0.004"/>
-  <testcase name="deleteRemovesContent" classname="campusdrive.BasicStorageTest" time="0.005"/>
-  <testcase name="loadUnknownThrowsException" classname="campusdrive.BasicStorageTest" time="0.001"/>
-  <testcase name="storesAndLoadsContent" classname="campusdrive.BasicStorageTest" time="0.001"/>
-  <testcase name="deletingUnknownFileDoesNotFail" classname="campusdrive.BasicStorageTest" time="0.006"/>
-  <testcase name="overwritesExistingContent" classname="campusdrive.BasicStorageTest" time="0.001"/>
+  <testcase name="concurrentUploadsToSameIdProduceOneCompleteVersion" classname="campusdrive.CampusDriveConcurrencyTest" time="0.011"/>
+  <testcase name="concurrentUploadAndDeleteDoNotCorruptStorage" classname="campusdrive.CampusDriveConcurrencyTest" time="0.004"/>
+  <testcase name="concurrentUploadsOfDifferentFilesRemainAvailable" classname="campusdrive.CampusDriveConcurrencyTest" time="0.01"/>
+  <testcase name="deduplicatingConcurrentUploadsKeepSingleBlob" classname="campusdrive.CampusDriveConcurrencyTest" time="0.02"/>
+  <testcase name="concurrentOperationsFinishWithoutDeadlock" classname="campusdrive.CampusDriveConcurrencyTest" time="0.014"/>
 </testsuite>

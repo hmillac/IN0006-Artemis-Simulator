@@ -3,6 +3,7 @@ bakery/BakeryServiceTest.class
 campusdrive/InMemoryFileStoreTest.class
 campusdrive/BasicStorageTest.class
 practice/CalculatorTest.class
+campusdrive/CampusDriveConcurrencyTest.class
 bakery/BakeryEasyMockTest.class
 campusdrive/DriveIndexTest.class
 campusdrive/DeduplicatingStorageTest.class
