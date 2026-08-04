@@ -12,6 +12,7 @@
 /workspaces/IN0006-Artemis-Simulator/src/main/java/campusdrive/exception/NotFoundException.java
 /workspaces/IN0006-Artemis-Simulator/src/main/java/campusdrive/infrastructure/FileStore.java
 /workspaces/IN0006-Artemis-Simulator/src/main/java/campusdrive/infrastructure/InMemoryFileStore.java
+/workspaces/IN0006-Artemis-Simulator/src/main/java/campusdrive/service/CampusDriveService.java
 /workspaces/IN0006-Artemis-Simulator/src/main/java/campusdrive/storage/BasicStorage.java
 /workspaces/IN0006-Artemis-Simulator/src/main/java/campusdrive/storage/ContentHash.java
 /workspaces/IN0006-Artemis-Simulator/src/main/java/campusdrive/storage/DeduplicatingStorage.java
