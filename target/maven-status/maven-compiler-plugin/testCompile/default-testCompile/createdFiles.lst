@@ -1,5 +1,6 @@
 campusdrive/CampusDriveRecoveryStressTest.class
 campusdrive/CampusDriveServiceTest.class
+bakery/BakeryHiddenCasesTest.class
 bakery/BakeryServiceTest.class
 campusdrive/InMemoryFileStoreTest.class
 campusdrive/BasicStorageTest.class
