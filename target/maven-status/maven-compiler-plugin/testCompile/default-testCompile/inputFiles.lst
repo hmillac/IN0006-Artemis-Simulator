@@ -1,0 +1,9 @@
+/workspaces/IN0006-Artemis-Simulator/src/test/java/bakery/BakeryEasyMockTest.java
+/workspaces/IN0006-Artemis-Simulator/src/test/java/bakery/BakeryServiceTest.java
+/workspaces/IN0006-Artemis-Simulator/src/test/java/bakery/DatabaseAdapterTest.java
+/workspaces/IN0006-Artemis-Simulator/src/test/java/bakery/PastryTest.java
+/workspaces/IN0006-Artemis-Simulator/src/test/java/bakery/StockNotifierTest.java
+/workspaces/IN0006-Artemis-Simulator/src/test/java/campusdrive/BasicStorageTest.java
+/workspaces/IN0006-Artemis-Simulator/src/test/java/campusdrive/DeduplicatingStorageTest.java
+/workspaces/IN0006-Artemis-Simulator/src/test/java/campusdrive/InMemoryFileStoreTest.java
+/workspaces/IN0006-Artemis-Simulator/src/test/java/practice/CalculatorTest.java

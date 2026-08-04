@@ -1,0 +1,9 @@
+bakery/BakeryServiceTest.class
+campusdrive/InMemoryFileStoreTest.class
+campusdrive/BasicStorageTest.class
+practice/CalculatorTest.class
+bakery/StockNotifierTest.class
+bakery/BakeryEasyMockTest.class
+campusdrive/DeduplicatingStorageTest.class
+bakery/PastryTest.class
+bakery/DatabaseAdapterTest.class
