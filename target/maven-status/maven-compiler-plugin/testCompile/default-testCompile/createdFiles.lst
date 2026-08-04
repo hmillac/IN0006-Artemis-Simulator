@@ -10,6 +10,7 @@ bakery/BakeryEasyMockTest.class
 campusdrive/DriveIndexTest.class
 campusdrive/DeduplicatingStorageTest.class
 campusdrive/MetaLogTest.class
+campusdrive/CampusDriveHiddenCasesTest.class
 bakery/StockNotifierTest.class
 campusdrive/LogReplayTest.class
 bakery/PastryTest.class

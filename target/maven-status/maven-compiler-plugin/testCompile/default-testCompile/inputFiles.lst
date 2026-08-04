@@ -6,6 +6,7 @@
 /workspaces/IN0006-Artemis-Simulator/src/test/java/bakery/StockNotifierTest.java
 /workspaces/IN0006-Artemis-Simulator/src/test/java/campusdrive/BasicStorageTest.java
 /workspaces/IN0006-Artemis-Simulator/src/test/java/campusdrive/CampusDriveConcurrencyTest.java
+/workspaces/IN0006-Artemis-Simulator/src/test/java/campusdrive/CampusDriveHiddenCasesTest.java
 /workspaces/IN0006-Artemis-Simulator/src/test/java/campusdrive/CampusDriveRecoveryStressTest.java
 /workspaces/IN0006-Artemis-Simulator/src/test/java/campusdrive/CampusDriveServiceTest.java
 /workspaces/IN0006-Artemis-Simulator/src/test/java/campusdrive/DeduplicatingStorageTest.java

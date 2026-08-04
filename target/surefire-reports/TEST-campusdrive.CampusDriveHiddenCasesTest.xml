@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="bakery.StockNotifierTest" time="0.039" tests="6" errors="0" skipped="0" failures="0" flakes="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="campusdrive.CampusDriveHiddenCasesTest" time="0.043" tests="10" errors="0" skipped="0" failures="0" flakes="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -54,10 +54,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="doesNotNotifyAboveThreshold" classname="bakery.StockNotifierTest" time="0.006"/>
-  <testcase name="multipleListenersAreAllNotified" classname="bakery.StockNotifierTest" time="0.003"/>
-  <testcase name="onlyNotifiesListenersForCorrectPastry" classname="bakery.StockNotifierTest" time="0.007"/>
-  <testcase name="notifiesBelowThreshold" classname="bakery.StockNotifierTest" time="0.002"/>
-  <testcase name="removedListenerIsNotNotified" classname="bakery.StockNotifierTest" time="0.002"/>
-  <testcase name="notifiesAtThreshold" classname="bakery.StockNotifierTest" time="0.007"/>
+  <testcase name="repeatedOverwriteKeepsOnlyLatestDeduplicatedReference" classname="campusdrive.CampusDriveHiddenCasesTest" time="0.002"/>
+  <testcase name="recoveryAfterMultipleOverwritesReturnsLatestVersion" classname="campusdrive.CampusDriveHiddenCasesTest" time="0.001"/>
+  <testcase name="blobIsDeletedAfterLastReferenceDisappears" classname="campusdrive.CampusDriveHiddenCasesTest" time="0.003"/>
+  <testcase name="repeatedOverwriteKeepsOnlyLatestBasicContent" classname="campusdrive.CampusDriveHiddenCasesTest" time="0.002"/>
+  <testcase name="sharedBlobSurvivesWhenOneReferenceIsDeleted" classname="campusdrive.CampusDriveHiddenCasesTest" time="0.002"/>
+  <testcase name="deleteThenRecoverThenUploadSameIdWorks" classname="campusdrive.CampusDriveHiddenCasesTest" time="0.002"/>
+  <testcase name="recoveryAfterGarbageCollectionPreservesLiveFiles" classname="campusdrive.CampusDriveHiddenCasesTest" time="0.003"/>
+  <testcase name="metadataLogKeepsCompleteOperationOrder" classname="campusdrive.CampusDriveHiddenCasesTest" time="0.002"/>
+  <testcase name="deleteUnknownFileIsLoggedButRemainsAbsent" classname="campusdrive.CampusDriveHiddenCasesTest" time="0.003"/>
+  <testcase name="garbageCollectionDoesNothingForBasicStorage" classname="campusdrive.CampusDriveHiddenCasesTest" time="0.003"/>
 </testsuite>
